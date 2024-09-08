@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Homeo Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="logo.jpg" type="image/x-icon"> -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Gaurav Homeo Clinic</h1>
+            <p>Your health is our priority. Offering quality care and personalized treatment.</p>
+            <h3 id="hi">Type your feedback</h3><br>
+            <textarea id="messageInput" placeholder="Type the feedback and press Enter" cols="40" rows="7"></textarea>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Dr. Gaurav</h2>
+        <p>Dr. Gaurav kaushal has done his bachlors degeree in Homeopathy that is BHMS in Pune, then he has done his
+            emergency medical sciences dploma course from ruby hall pune. He has done his post graduation course in
+            brain and neurological disiase from london.</p>
+    </section>
+    <section id="about">
+        <h2>About Dr. Anchal</h2>
+        <p>Dr. Anchal kaushal has done her bachlors degeree in Homeopathy that is BHMS in Pune, she has done a
+            certificate course in gynecology and obstratics. </p>
+    </section>
+    <!-- <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>General Checkups</h3>
+            <p>Regular health checkups to ensure your well-being.</p>
+        </div>
+        <div class="service">
+            <h3>Specialist Consultations</h3>
+            <p>Consultations with specialized experts for complex conditions.</p>
+        </div>
+        <div class="service">
+            <h3>Vaccinations</h3>
+            <p>All essential vaccinations for you and your family.</p>
+        </div>
+    </section> -->
+    <section id="testimonials">
+        <h2>Patient Testimonials</h2>
+        <blockquote>
+            <p>"Dr. Gaurav and Dr. Anchal are the best doctor I've ever had been to. Highly recommend!"</p>
+        </blockquote>
+        <blockquote>
+            <p>"Excellent care and very professional. The staff is also wonderful."</p>
+        </blockquote>
+    </section>
+    <section class="contact">
+        <section>
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <p>Email: <strong>gavs_kaush@yahoo.com</strong></p>
+        <p>Phone: <strong>9453991040</strong></p>
+        <p>Address: <strong>Gaurav Homeo Clinic, rangmehala, Keruganj, Shahjahanpur</strong></p>
+    </section>
+</body>
+<script src="java.js"></script>
+
+</html>
